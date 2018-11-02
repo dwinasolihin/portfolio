@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    title: "Dwina Solihin",
+    author: "Dwina Solihin",
+    description: "A hard-working, creative, and dedicated front-end Software Developer."
   },
+  pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
