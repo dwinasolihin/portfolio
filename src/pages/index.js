@@ -44,12 +44,37 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Skills include:</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <h3>Technical</h3>
+                            <p>Experience in:
+                                <ul className="skills-list"> Languages
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>React</li>
+                                    <li>Swift</li>
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                </ul>
+                                <ul className="skills-list"> Micellaneous Technologies
+                                    <li>Adobe Experience Design (XD)</li>
+                                    <li>Adobe Illustrator</li>
+                                    <li>Git</li>
+                                    <li>Plot.ly</li>
+                                    <li>Sass</li>
+                                </ul>
+                            </p>
+                            <h3>Soft</h3>
+                            <p>Experience in:
+                                <ul className="skills-list">
+                                    <li>Information gathering</li>
+                                    <li>Research and Plannning of web page layouts, colors, and designs</li>
+                                    <li>Design and Wireframing</li>
+                                    <li>Testing (e.g. use case testing)</li>
+                                    <li>Maintenance of web pages</li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </section>
