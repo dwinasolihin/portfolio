@@ -5,12 +5,17 @@ class Footer extends React.Component {
         return (
             <section id="footer">
                 <ul className="icons">
-                    <li><a href="#" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
-                    <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
-                    <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
+                    <li><a href="mailto:dwina@uw.edu" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/dwinasolihin/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/dwinasolihin/" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
                 </ul>
                 <ul className="copyright">
-                    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>&copy; Dwina Solihin</li><li>Powered by:</li>
+                </ul>
+                <ul className="icons">
+                    <li><a href="mailto:dwina@uw.edu" className="icon alt fa-envelope"><span className="label">Gatsby.JS</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/dwinasolihin/" className="icon alt fa-linkedin"><span className="label">Sass</span></a></li>
+                    <li><a href="https://github.com/dwinasolihin/" className="icon alt fa-github"><span className="label">React.JS</span></a></li>
                 </ul>
             </section>
         )
