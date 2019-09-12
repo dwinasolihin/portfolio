@@ -6,11 +6,10 @@ class Header extends React.Component {
             <section id="header">
                 <div className="inner">
                     <span className="icon major fa-cloud"></span>
-                    <h1>Hi, I'm <strong>Dwina</strong><br /></h1>
-                    <p>Front-end Software Development Engineer at University of Washington. 
-Let’s connect!</p>
+                    <h1><strong>Dwina Solihin</strong><br /></h1>
+                    <p>Front-End Software Developer in Seattle</p>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Get to know me :)</a></li>
+                        <li><a href="#one" className="button scrolly">About Me</a></li>
                     </ul>
                 </div>
             </section>

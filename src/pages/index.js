@@ -9,7 +9,7 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Dwina S.";
+        const siteTitle = "Dwina Solihin";
 
         return (
             <Layout>
@@ -21,7 +21,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>About Me</h2>
                             </header>
-                            <p>Hi there! I am a front-end developer with a passion for design. I am constantly pushing myself to learn new technologies and build my skills.  </p>
+                            <p>Hi there! I am a front-end software developer with a passion for design. </p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
