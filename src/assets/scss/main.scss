@@ -467,7 +467,8 @@
 
 	.image {
 		border-radius: _size(border-radius);
-		border: 0;
+		// border: 0;
+		border: 1px solid black;
 		display: inline-block;
 		position: relative;
 
@@ -521,13 +522,13 @@
 	}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1em;
+		//padding-left: 1em;
 
-		li {
-			padding-left: 0.5em;
-		}
+		// li {
+		// 	padding-left: 0.5em;
+		// }
 
 		&.alt {
 			list-style: none;
