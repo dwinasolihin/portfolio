@@ -21,7 +21,12 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>About Me</h2>
                             </header>
-                            <p>Hi there! I am a front-end software developer with a passion for design. </p>
+                            <p>I'm a software development engineer with a passion for creating beautiful, intuitive interfaces. 
+                                I offer the skills and ability to assist an organization’s needs and create a strong web applications 
+                                using my experience in the stages of front-end development such as: information gathering, planning, design 
+                                and wireframes, implementation and testing. I am passionate about new technologies and ways to improve 
+                                people's quality of life.
+                            </p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
@@ -45,22 +50,20 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Skills include:</h2>
                             </header>
-                            <h3>Technical</h3>
+                            <h3>Technologies</h3>
                             <p>Experience in:
-                                <ul className="skills-list"> Languages
-                                    <li>HTML</li>
-                                    <li>CSS</li>
+                                <ul className="skills-list"> 
+                                Technologies
+                                    <li>HTML5 &amp; CSS3</li>
                                     <li>JavaScript</li>
-                                    <li>React</li>
-                                    <li>Swift</li>
-                                    <li>Java</li>
-                                    <li>C++</li>
+                                    <li>VueJS</li>
+                                    <li>GeoSpatial - Mapbox</li>
+                                    <li>Data Visualization - Plotly</li>
                                 </ul>
                                 <ul className="skills-list"> Micellaneous Technologies
                                     <li>Adobe Experience Design (XD)</li>
                                     <li>Adobe Illustrator</li>
                                     <li>Git</li>
-                                    <li>Plot.ly</li>
                                     <li>Sass</li>
                                 </ul>
                             </p>
@@ -82,9 +85,9 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Experience</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <p>Here are a few projects I have worked on</p>
                         </div>
 
                         <div className="col-4">
@@ -92,7 +95,7 @@ class Homepage extends React.Component {
                             <h3>Magna feugiat lorem</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://app.interactiveoceans.washington.edu/" className="button">Web Application</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -100,7 +103,7 @@ class Homepage extends React.Component {
                             <h3>Magna feugiat lorem</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://cerdasfoundation.org/" className="button">Website</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -108,7 +111,7 @@ class Homepage extends React.Component {
                             <h3>Magna feugiat lorem</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://dwinas.com/" className="button">Website</a></li>
                             </ul>
                         </div>
 
@@ -118,7 +121,7 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Education</h2>
                         </header>
                         <p>Sed lacus nascetur ac ante amet sapien.</p>
                         <ul className="actions uniform">
