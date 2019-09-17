@@ -17,19 +17,36 @@ class Homepage extends React.Component {
 
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
-                        <div className="col-6">
+                        <div className="col-4">
                             <header className="major">
-                                <h2>About Me</h2>
+                                <h2>About me</h2>
                             </header>
-                            <p>I'm a software development engineer with a passion for creating beautiful, intuitive interfaces. 
+                            <p> I am a software development engineer with a passion for creating beautiful, intuitive interfaces. 
                                 I offer the skills and ability to assist an organization’s needs and create strong web applications 
                                 using my experience in the stages of front-end development such as: information gathering, planning, design 
                                 and wireframes, implementation and testing. I am passionate about new technologies and ways to improve 
                                 people's quality of life.
                             </p>
                         </div>
-                        <div className="col-6">
+                        <div className="col-4">
                             <span className="image fit"><img src={pic01} alt="" /></span>
+                        </div>
+                        <div className="col-4">
+                            <header className="major">
+                                <h2>Details</h2>
+                            </header>
+                            <div>
+                                <h5 style={{margin: `0 0 0 0`}}><strong>Name:</strong></h5>
+                                <p>Dwina Solihin</p>
+                            </div>
+                            <div>
+                                <h5 style={{margin: `0 0 0 0`}}><strong>Location:</strong></h5>
+                                <p>Seattle, WA</p>
+                            </div>
+                            <div>
+                                <h5 style={{margin: `0 0 0 0`}}><strong>Hobbies include:</strong></h5>
+                                <p>Traveling the world, going to cool concerts, reading all sorts of books</p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -50,19 +67,19 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Software &amp; Platform Proficiencies</h2>
                             </header>
-                                <p>
-                                    <ul className="skills-list"> 
-                                        <li>Vue</li>
-                                        <li>React</li>
-                                        <li>JavaScript</li>
-                                        <li>HTML5 &amp; CSS3</li>
-                                        <li>GeoSpatial Tools - Mapbox</li>
-                                        <li>Data Visualization Tools - Plotly</li>
-                                        <li>Adobe Experience Design (XD)</li>
-                                        <li>Git</li>
-                                        <li>Sass</li>
-                                    </ul>
-                                </p>
+                            <p>
+                                <ul className="skills-list"> 
+                                    <li>Vue</li>
+                                    <li>React</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML5 &amp; CSS3</li>
+                                    <li>GeoSpatial Tools - Mapbox</li>
+                                    <li>Data Visualization Tools - Plotly</li>
+                                    <li>Adobe Experience Design (XD)</li>
+                                    <li>Git</li>
+                                    <li>Sass</li>
+                                </ul>
+                            </p>
                         </div>
                         <div className="col-6">
                             <header className="major">
@@ -138,9 +155,6 @@ class Homepage extends React.Component {
                         </header>
                     <div className="grid-wrapper">
                     <div className="col-6">
-                    
-                    
-                        
                             <h5>University of Washington - Professional and Continuing Education</h5>
                             <h6>Issued August 2018</h6>
                             <p>Certificate in Front-end Development with HTML, CSS, and Javascript</p>
